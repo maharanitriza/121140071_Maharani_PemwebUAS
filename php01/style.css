@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    font-family: 'Poppins', serif;
+    box-sizing: border-box;
+}
+body{
+    align-items: center;
+    background-color: #e6e6fa;
+}
+
+/* Halaman Landing Page */
+header{
+    display: flex;
+    height: fit-content;
+}
+header h1{
+    padding: 20px 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #add8e6;
+}
+.container{
+    width: auto;
+    height: auto;
+    justify-content: center;
+}
+
+.container .tabel-header{
+    width: auto;
+    margin: 20px 20px 0 20px;
+    padding: 10px;
+    background-color: #8a8a8a;
+    color: #fff;
+    border-radius: 5px;
+}
+.tabel-header h2{
+    color: #333;
+    align-items: center;
+}
+table{
+    width: fit-content;
+    margin: 20px;
+    margin-bottom: 0;
+    padding: 10px;
+    border-collapse: collapse;
+    border: 2px solid #000000;
+}
+tr{
+    background-color: #4682b4;
+    border: 2px solid #000000;
+}
+thead th, tbody td{
+    width: fit-content;
+    text-align: center;
+    padding: 20px 30px;
+    border: 1px solid #000000;
+}
+tbody tr:nth-child(odd){
+    background-color: #e6e5e5;
+    color: #000000;
+}
+tbody tr:nth-child(even){
+    background-color: #bababa;
+    color: #000000;
+}
+.button-aksi{
+    border: 0;
+    padding: 16px;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5px;
+}
+button{
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+    border-radius: 5px;
+}
+.button-detail{
+    background-color: #4CAF50;
+    font-weight: 500;
+    color: #ffffff;
+}
+.button-update{
+    background-color: #2196F3;
+    font-weight: 500;
+    color: #ffffff;
+}
+.button-delete{
+    background-color: #f44336;
+    font-weight: 500;
+    color: #ffffff;
+}
+.button-addData{
+    margin-left: 10px;
+    padding: 10px;
+}
+.button-addData button{
+    background-color: #8a2be2;
+    color: #ffffff;
+    font-weight: 500;
+    padding: 10px;
+}
+/* Tombol tanpa efek hover */
+.button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+}
+
+/* Efek menonjol saat kursor diarahkan ke tombol */
+.button:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.button-addData a{
+    text-decoration: none;
+    color: white;
+}
+
+.button-aksi a{
+    text-decoration: none;
+}
+
+/* Halaman Create */
+.container-form{
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    padding: 20px 0;
+}
+form{
+    border: 2px solid #333;
+    border-radius: 15px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: 16px;
+    margin-bottom: 16px; */
+    padding-bottom: 16px;
+    padding: 10px 20px;
+    display: block;
+}
+.group{
+    margin-bottom: 16px;
+}
+input{
+    padding: 10px 5px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    color: #495057;
+}
+label{
+    display: inline-block;
+    margin-bottom: 10px;
+    width: fit-content;
+}
+.button-form{
+    width: auto;
+    margin-right: 70%;
+    padding: 16px 0;
+}
+.button-submit{
+    background-color: #2196F3;
+    padding: 10px 5px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+/* Alert Box */
+.alert-error {
+    padding: 20px;
+    background-color: #f44336; /* Red */
+    color: white;
+    margin-bottom: 15px;
+}
+.alert-sukses {
+    padding: 20px;
+    background-color: #4CAF50; /* Red */
+    color: white;
+    margin-bottom: 15px;
+}
+  /* The close button */
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: center;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+  /* When moving the mouse over the close button */
+.closebtn:hover {
+    color: black;
+}
+.tabel-update{
+    margin-bottom: 20px;
+}
+.container-update{
+    width: auto;
+    height: auto;
+    justify-content: center;
+}
+.form-update{
+    margin-top: 100px;
+}
+/* Update(Read) */
